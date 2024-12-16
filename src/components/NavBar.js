@@ -5,36 +5,11 @@ import CssBaseline from "@mui/material/CssBaseline";
 import Divider from "@mui/material/Divider";
 import Drawer from "@mui/material/Drawer";
 import IconButton from "@mui/material/IconButton";
-import InboxIcon from "@mui/icons-material/MoveToInbox";
 import List from "@mui/material/List";
-import ListItem from "@mui/material/ListItem";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import ListItemText from "@mui/material/ListItemText";
-import MailIcon from "@mui/icons-material/Mail";
 import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
 
-import {
-  Avatar,
-  Badge,
-  ListItemButton,
-  Paper,
-  Popper,
-  Stack,
-  styled,
-} from "@mui/material";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import LogoutIcon from "@mui/icons-material/Logout";
-import { SignalWifiStatusbarNullTwoTone } from "@mui/icons-material";
-import NotificationsIcon from "@mui/icons-material/Notifications";
-import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
-import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
-import GroupsIcon from "@mui/icons-material/Groups";
-import ChatIcon from "@mui/icons-material/Chat";
-import AddIcon from "@mui/icons-material/Add";
-import CallIcon from "@mui/icons-material/Call";
-import LinearScaleIcon from "@mui/icons-material/LinearScale";
+import { Stack, styled } from "@mui/material";
 
 const drawerWidth = "50px";
 const DrawerHeader = styled("div")(({ theme }) => ({
@@ -141,6 +116,7 @@ export default function Navigation() {
           width={"40px"}
           height={"40px"}
           style={{ padding: "10px 0 0 5px" }}
+          alt="menu1"
         />
       </DrawerHeader>
       <Divider />
@@ -168,6 +144,7 @@ export default function Navigation() {
             width={"18px"}
             height={"18px"}
             style={{ marginLeft: "7px", marginTop: "7px" }}
+            alt="add"
           />
         </div>
         <img
@@ -175,6 +152,7 @@ export default function Navigation() {
           width={"32px"}
           height={"24px"}
           style={{ marginLeft: "7px" }}
+          alt="home"
         />
         <div
           style={{
@@ -193,6 +171,7 @@ export default function Navigation() {
             width={"18px"}
             height={"18px"}
             style={{ marginLeft: "7px", marginTop: "7px" }}
+            alt="add"
           />
         </div>
         <img
@@ -200,6 +179,7 @@ export default function Navigation() {
           width={"32px"}
           height={"24px"}
           style={{ marginLeft: "7px" }}
+          alt="edit"
         />
 
         <img
@@ -207,6 +187,7 @@ export default function Navigation() {
           width={"32px"}
           height={"24px"}
           style={{ marginLeft: "7px" }}
+          alt="icons"
         />
 
         <img
@@ -214,6 +195,7 @@ export default function Navigation() {
           width={"32px"}
           height={"24px"}
           style={{ marginLeft: "7px" }}
+          alt="search"
         />
 
         <img
@@ -221,12 +203,14 @@ export default function Navigation() {
           width={"32px"}
           height={"24px"}
           style={{ marginLeft: "7px" }}
+          alt="test"
         />
         <img
           src="../test1.svg"
           width={"32px"}
           height={"24px"}
           style={{ marginLeft: "7px" }}
+          alt="test1"
         />
         <img
           src="../people.svg"
@@ -398,8 +382,18 @@ export default function Navigation() {
               <img src="../notification.svg" width={"24px"} height={"24px"} />
             </div>
             <div style={{ display: "flex", alignItems: "center", gap: "5px" }}>
-              <img src="../user.svg" width={"40px"} height={"40px"} />
-              <img src="../drop.svg" width={"20px"} height={"20px"} />
+              <img
+                src="../user.svg"
+                width={"40px"}
+                height={"40px"}
+                alt="user"
+              />
+              <img
+                src="../drop.svg"
+                width={"20px"}
+                height={"20px"}
+                alt="drop"
+              />
             </div>
           </div>
         </Toolbar>
