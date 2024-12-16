@@ -261,7 +261,7 @@ const Projects = () => {
                 <div style={{ position: "relative" }}></div>
               </div>
               <div style={{ display: "flex", alignItems: "center" }}>
-                <img src="../file.svg" alt="" width={"20px"} height={"20px"} />
+                <img src="/file.svg" alt="" width={"20px"} height={"20px"} />
                 <span
                   style={{
                     fontWeight: "700",
